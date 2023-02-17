@@ -15,8 +15,8 @@
  */
 :host-context(.login-logo) {
   img.tb-logo-title {
-    width: 200px;  //default 280
-    height: 40px;  //default 60
+    width: auto;  //default 280
+    height: 80px;  //default 60
     text-decoration: none;
     cursor: pointer;
     border: none;

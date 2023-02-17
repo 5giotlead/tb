@@ -23,7 +23,7 @@ import { Component } from '@angular/core';
 })
 export class LogoComponent {
 
-  logo = 'assets/wistron_logo.svg.png';
+  logo = 'assets/5giotlead.svg';
 
   gotoThingsboard(): void {
     window.open('https://thingsboard.io', '_blank');

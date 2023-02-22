@@ -16,7 +16,7 @@
 
 -->
 <div class="tb-login-content" fxFlex fxLayoutAlign="center center"> <!-- remove mat-app-background tb-dark, bg-color of form --> 
-  <mat-card style="max-height: 80vh; overflow-y: auto;">
+  <mat-card style="max-height: 80vh; overflow-y: auto;"> 
     <mat-card-content>
       <form class="tb-login-form" [formGroup]="loginFormGroup" (ngSubmit)="login()">
         <fieldset [disabled]="isLoading$ | async" fxLayout="column">
@@ -27,7 +27,7 @@
           </mat-progress-bar>
           <span style="height: 4px;" *ngIf="!(isLoading$ | async)"></span>
           <div tb-toast fxLayout="column" class="layout-padding">
-            <span style="height: 50px;"></span>
+            <!--delete <span _ngcontent-bfa-c187 style="height: 50px;"></span>-->
             <div class="oauth-container tb-default" fxLayout="column" fxLayoutGap="16px" *ngIf="oauth2Clients?.length">
               <ng-container *ngFor="let oauth2Client of oauth2Clients">
                 <a mat-raised-button class="login-with-button" href="{{ getOAuth2Uri(oauth2Client) }}">

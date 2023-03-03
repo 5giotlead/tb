@@ -2,3 +2,28 @@
   from = "/api/*"
   to = "http://sp2.5giotlead.com:8080/api/:splat"
   status = 200
+  
+[[redirects]]
+  from = "/static/rulenode/*"
+  to = "http://sp2.5giotlead.com:8080/static/rulenode/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/static/widgets/*"
+  to = "http://sp2.5giotlead.com:8080/static/widgets/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/oauth2/*"
+  to = "http://sp2.5giotlead.com:8080/oauth2/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/login/oauth2/*"
+  to = "http://sp2.5giotlead.com:8080/login/oauth2/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/api/ws/*"
+  to = "http://sp2.5giotlead.com:8080/api/ws/:splat"
+  status = 200

@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/api/*"
+  to = "http://sp2.5giotlead.com/api/:splat"
+  status = 200

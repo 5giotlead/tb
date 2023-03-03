@@ -1,4 +1,9 @@
 [[redirects]]
+  from = "/api/ws/*"
+  to = "ws://sp2.5giotlead.com:8080/api/ws/:splat"
+  status = 200
+
+[[redirects]]
   from = "/api/*"
   to = "http://sp2.5giotlead.com:8080/api/:splat"
   status = 200
@@ -21,9 +26,4 @@
 [[redirects]]
   from = "/login/oauth2/*"
   to = "http://sp2.5giotlead.com:8080/login/oauth2/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/api/ws/*"
-  to = "ws://sp2.5giotlead.com:8080/api/ws/:splat"
   status = 200

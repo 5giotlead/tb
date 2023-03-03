@@ -48,7 +48,7 @@ export class HomeComponent extends PageComponent implements AfterViewInit, OnIni
   sidenavMode: 'over' | 'push' | 'side' = 'side';
   sidenavOpened = true;
 
-  logo = 'assets/wistron_logo.svg.png'; //change logo path
+  logo = 'assets/text.svg'; //change logo path
 
   @ViewChild('sidenav')
   sidenav: MatSidenav;

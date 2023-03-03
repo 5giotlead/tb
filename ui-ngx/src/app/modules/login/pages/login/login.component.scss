@@ -21,7 +21,7 @@
   .tb-login-content {
     //margin-top: 36px;
     //margin-bottom: 76px;
-    background: linear-gradient(45deg, #006b93, #97bb57); //default #eee, backgroundColor -> background
+    background: linear-gradient(45deg,#536976 90%, #032E45FF 10%); //default #eee, backgroundColor -> background
     .tb-login-form {
       @media #{$mat-gt-xs} {
         width: 400px !important; //default 550px

@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/api/ws/*"
-  to = "ws://sp2.5giotlead.com:8080/api/ws/:splat"
+  to = "http://sp2.5giotlead.com:8080/api/ws/:splat"
   status = 200
 
 [[redirects]]

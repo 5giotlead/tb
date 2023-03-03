@@ -27,3 +27,8 @@
   from = "/login/oauth2/*"
   to = "http://sp2.5giotlead.com:8080/login/oauth2/:splat"
   status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
